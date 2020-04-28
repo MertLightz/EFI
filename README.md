@@ -2,6 +2,4 @@
  HP Pavilion 14-ce1005na Clover EFI (battery and brightness working).
 
 Known Issues:
-- iMessage not working
-- Facetime not working
-- Siri not working
+- Backlight takes 5 minutes to start up resulting in blackscreen for first 5 minutes of boot.
