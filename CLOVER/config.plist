@@ -300,11 +300,9 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>dart=0 kext-dev-mode=1 nv_disable=1 rootless=0 igfxcflbklt=force -v</string>
+		<string>dart=0 kext-dev-mode=1 nv_disable=1 rootless=0 -v</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
-		<key>Fast</key>
-		<true/>
 		<key>HibernationFixup</key>
 		<false/>
 		<key>NeverHibernate</key>
@@ -315,6 +313,8 @@
 		<false/>
 		<key>Secure</key>
 		<false/>
+		<key>Timeout</key>
+		<integer>-1</integer>
 	</dict>
 	<key>Comment</key>
 	<string>This file is for 10.14.x with native CoffeeLake support</string>
